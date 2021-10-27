@@ -1,5 +1,5 @@
 # Random TTS Generator
-Every n seconds, reads out a TTS phrase.
+Given a lower and upper time bound, reads out a randomly selected user-defined TTS phrase.
 
 # Installation
 
@@ -19,22 +19,24 @@ Every n seconds, reads out a TTS phrase.
 
 1. Clone this repo. If you don't have Git installed, [install it here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Clone by running the following in your terminal:
 ```
-git clone https://github.com/griffinbeels/gym.git
+git clone https://github.com/griffinbeels/random_tts.git
 ```
 
 2. `cd` into the cloned directory.
 
-3. Create a virtual environment, by running the following in your terminal:
+3. Create a virtual environment, by running the following in your terminal (refer to the above if using Windows):
 ```
 ./create_venv.sh
 ```
 
 4. If the virtual environment is not activated (make sure it's active every time you run this program), do so by entering:
 ```
-source ~/gym_venv/bin/activate 
+source ~/tts/bin/activate 
 ```
 
-5. To run, simply enter (where arguments is a series of arguments defined in [Features](#Features)):
+5. To run, simply enter:
 ```
-python3.7 signup.py [arguments]
+python3.7 tts.py
 ```
+
+
